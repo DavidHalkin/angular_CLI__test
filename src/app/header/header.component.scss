@@ -1,0 +1,19 @@
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	display: flex;
+	li{
+		flex: 1;
+		padding: 2px;
+		a{
+			display: flex;
+			align-items:center;
+			background: orange;
+			color: #fff;
+			height: 30px;
+			justify-content:center;
+		}
+	}
+}
