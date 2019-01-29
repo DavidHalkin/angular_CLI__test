@@ -6,10 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+	
+	cars:any [ ]
   constructor() { }
 
   ngOnInit() {
+  this.cars=[
+  	{
+  		vin:0,
+  		year:2323,
+  		color:'red',
+  		brand: 'sdasdasd'
+  	}
+  ]
   }
 
 }
